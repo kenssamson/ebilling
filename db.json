@@ -43,9 +43,9 @@
     ],
     "procedures": [
       { "id": 1, "code": "32554", "description": "Thoracentesis" },
-      { "id": 2, "code": "32555", "description": "Theracentesis w/ Ultrasound Gu"id"ance" },
+      { "id": 2, "code": "32555", "description": "Theracentesis w/ Ultrasound Guidance" },
       { "id": 3, "code": "49082", "description": "Abdominal Paracentesis" },
-      { "id": 4, "code": "48083", "description": "Abdominal Paracentesis w/ Ultrasound Gu"id"ance" },
+      { "id": 4, "code": "48083", "description": "Abdominal Paracentesis w/ Ultrasound Guidance" },
       { "id": 5, "code": "49084", "description": "Peritoneal lavage" },
       { "id": 6, "code": "62270", "description": "Diagnostic Lumbar Punctures" },
       { "id": 7, "code": "36556", "description": "Central Venous Catheter, Initial Placement" }
