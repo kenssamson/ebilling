@@ -1,54 +1,57 @@
 {
-  "serviceTypes": [
-    { id: 1, description: 'J Day Service' },
-    { id: 2, description: 'K Day Service' },
-    { id: 3, description: 'L Day Service' },
-    { id: 4, description: 'M Day Service' },
-    { id: 5, description: 'O Day Service' }
-  ],
-  "patientTypes": [
-    { id: 1, description: 'Liver' },
-    { id: 2, description: 'Oncology' },
-    { id: 3, description: 'General Medicine' },
-    { id: 4, description: 'Cardiology' },
-    { id: 5, description: 'Radiologoy' }
-  ],
-  "chargeTypes": [
-    { id: 1, description: 'Evaluate & Manage', chargeTypeID: 1 },
-    { id: 2, description: 'Consultation', chargeTypeID: 2 },
-    { id: 3, description: 'Observation', chargeTypeID: 3 },
-    { id: 4, description: 'Critical Care', chargeTypeID: 4 },
-    { id: 5, description: 'Procedure Only', chargeTypeID: 5 }
-  ],
-  "chargeLevels": [
-    { id: 1, description: 'Seen but not Billed', chargeTypeID: 1 },
-    { id: 2, description: 'Admit Level 1', chargeTypeID: 1 },
-    { id: 3, description: 'Subseq Day Level 1', chargeTypeID: 1 },
-    { id: 4, description: 'Discharge', chargeTypeID: 1 },
-    { id: 5, description: 'Initial Consult Lvl 1', chargeTypeID: 2 },
-    { id: 6, description: 'Subseq Consult Lvl 1', chargeTypeID: 2 },
-    { id: 7, description: 'Init Observe Lvl 1', chargeTypeID: 3 },
-    { id: 8, description: 'Subseq Obs Lvl 1', chargeTypeID: 3 },
-    { id: 9, description: 'Obs/SD DC Lvl 1', chargeTypeID: 3 },
-    { id: 10, description: 'Observe Discharge', chargeTypeID: 3 },
-    { id: 11, description: '30-74 mins', chargeTypeID: 4 },
-    { id: 12, description: '75-104 mins', chargeTypeID: 4 },
-    { id: 13, description: '105-134 mins', chargeTypeID: 4 },
-    { id: 14, description: '135-164 mins', chargeTypeID: 4 },
-		{ id: 15, description: '165-194 mins', chargeTypeID: 4 },
-    { id: 16, description: '195-224 mins', chargeTypeID: 4 },
-    { id: 17, description: '225-254 mins', chargeTypeID: 4 },
-    { id: 18, description: '255-284 mins', chargeTypeID: 4 }
-  ],
-  "procedures": [
-    { id: 1, code: '32554', description: 'Thoracentesis' },
-    { id: 2, code: '32555', description: 'Theracentesis w/ Ultrasound Guidance' },
-    { id: 3, code: '49082', description: 'Abdominal Paracentesis' },
-    { id: 4, code: '48083', description: 'Abdominal Paracentesis w/ Ultrasound Guidance' },
-    { id: 5, code: '49084', description: 'Peritoneal lavage' },
-    { id: 6, code: '62270', description: 'Diagnostic Lumbar Punctures' },
-    { id: 7, code: '36556', description: 'Central Venous Catheter, Initial Placement' }
-  ],
+  "lookupData": {
+    "serviceTypes": [
+      { "id": 1, "description": "J Day Service" },
+      { "id": 2, "description": "K Day Service" },
+      { "id": 3, "description": "L Day Service" },
+      { "id": 4, "description": "M Day Service" },
+      { "id": 5, "description": "O Day Service" }
+    ],
+    "patientTypes": [
+      { "id": 1, "description": "Liver" },
+      { "id": 2, "description": "Oncology" },
+      { "id": 3, "description": "General Medicine" },
+      { "id": 4, "description": "Cardiology" },
+      { "id": 5, "description": "Radiologoy" }
+    ],
+    "chargeTypes": [
+      { "id": 1, "description": "Evaluate & Manage", "chargeTypeID": 1 },
+      { "id": 2, "description": "Consultation", "chargeTypeID": 2 },
+      { "id": 3, "description": "Observation", "chargeTypeID": 3 },
+      { "id": 4, "description": "Critical Care", "chargeTypeID": 4 },
+      { "id": 5, "description": "Procedure Only", "chargeTypeID": 5 }
+    ],
+    "chargeLevels": [
+      { "id": 1, "description": "Seen but not Billed", "chargeTypeID": 1 },
+      { "id": 2, "description": "Admit Level 1", "chargeTypeID": 1 },
+      { "id": 3, "description": "Subseq Day Level 1", "chargeTypeID": 1 },
+      { "id": 4, "description": "Discharge", "chargeTypeID": 1 },
+      { "id": 5, "description": "Initial Consult Lvl 1", "chargeTypeID": 2 },
+      { "id": 6, "description": "Subseq Consult Lvl 1", "chargeTypeID": 2 },
+      { "id": 7, "description": "Init Observe Lvl 1", "chargeTypeID": 3 },
+      { "id": 8, "description": "Subseq Obs Lvl 1", "chargeTypeID": 3 },
+      { "id": 9, "description": "Obs/SD DC Lvl 1", "chargeTypeID": 3 },
+      { "id": 10, "description": "Observe Discharge", "chargeTypeID": 3 },
+      { "id": 11, "description": "30-74 mins", "chargeTypeID": 4 },
+      { "id": 12, "description": "75-104 mins", "chargeTypeID": 4 },
+      { "id": 13, "description": "105-134 mins", "chargeTypeID": 4 },
+      { "id": 14, "description": "135-164 mins", "chargeTypeID": 4 },
+      { "id": 15, "description": "165-194 mins", "chargeTypeID": 4 },
+      { "id": 16, "description": "195-224 mins", "chargeTypeID": 4 },
+      { "id": 17, "description": "225-254 mins", "chargeTypeID": 4 },
+      { "id": 18, "description": "255-284 mins", "chargeTypeID": 4 }
+    ],
+    "procedures": [
+      { "id": 1, "code": "32554", "description": "Thoracentesis" },
+      { "id": 2, "code": "32555", "description": "Theracentesis w/ Ultrasound Gu"id"ance" },
+      { "id": 3, "code": "49082", "description": "Abdominal Paracentesis" },
+      { "id": 4, "code": "48083", "description": "Abdominal Paracentesis w/ Ultrasound Gu"id"ance" },
+      { "id": 5, "code": "49084", "description": "Peritoneal lavage" },
+      { "id": 6, "code": "62270", "description": "Diagnostic Lumbar Punctures" },
+      { "id": 7, "code": "36556", "description": "Central Venous Catheter, Initial Placement" }
+    ]
+  },
+
   "profile": {
     "name": "ebilling"
   }
