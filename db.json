@@ -51,7 +51,33 @@
       { "id": 7, "code": "36556", "description": "Central Venous Catheter, Initial Placement" }
     ]
   },
-
+  "diagnosis": [
+    { "rank": 1, "id": 336, "code": 193872, "icd9": "401.9", "icd10": "I10", "description": "HTN (hypertension)" }, 
+    { "rank": 2, "id": 271, "code": 86491, "icd9": "401.9", "icd10": "I10", "description": "Hypertension" }, 
+    { "rank": 3, "id": 43, "code": 853114, "icd9": "584.9", "icd10": "N17.9", "description": "AKI (acute kidney injury)" }, 
+    { "rank": 4, "id": 1658, "code": 41884, "icd9": "250.00", "icd10": "E11.9", "description": "Diabetes" }, 
+    { "rank": 5, "id": 34, "code": 84356, "icd9": "789.00", "icd10": "R10.9", "description": "Abdominal pain" }, 
+    { "rank": 6, "id": 367, "code": 72209, "icd9": "599.0", "icd10": "N39.0", "description": "UTI (urinary tract infection)" }, 
+    { "rank": 7, "id": 48, "code": 37980, "icd9": "285.9", "icd10": "D64.9", "description": "Anemia" }, 
+    { "rank": 8, "id": 4, "code": 72002, "icd9": "585.6", "icd10": "N18.6", "description": "ESRD (end stage renal disease)" }, 
+    { "rank": 9, "id": 708, "code": 72276, "icd9": "780.97", "icd10": "R41.82", "description": "Altered mental status" }, 
+    { "rank": 10, "id": 3, "code": 3076, "icd9": "496", "icd10": "J44.9", "description": "COPD (chronic obstructive pulmonary disease)" }, 
+    { "rank": 11, "id": 100, "code": 45668, "icd9": "428.0", "icd10": "I50.9", "description": "CHF (congestive heart failure)" }, 
+    { "rank": 12, "id": 119, "code": 41108, "icd9": "414.00", "icd10": "I25.10", "description": "CAD (coronary artery disease)" }, 
+    { "rank": 13, "id": 777, "code": 85191, "icd9": "786.50", "icd10": "R07.9", "description": "Chest pain" }, 
+    { "rank": 14, "id": 176, "code": 3944, "icd9": "427.31", "icd10": "I48.91", "description": "Atrial fibrillation" }, 
+    { "rank": 15, "id": 46, "code": 69799, "icd9": "038.9", "icd10": "A41.9", "description": "Sepsis" }, 
+    { "rank": 16, "id": 664, "code": 39018, "icd9": "790.7", "icd10": "R78.81", "description": "Bacteremia" }, 
+    { "rank": 17, "id": 145, "code": 27348, "icd9": "780.60", "icd10": "R50.9", "description": "Fever" }, 
+    { "rank": 18, "id": 366, "code": 41590, "icd9": "294.20", "icd10": "F03.90", "description": "Dementia" }, 
+    { "rank": 19, "id": 405, "code": 1000933, "icd9": "584.9", "icd10": "N17.9", "description": "Acute kidney injury" }, 
+    { "rank": 20, "id": 50, "code": 87580, "icd9": "486", "icd10": "J18.9", "description": "Pneumonia" }, 
+    { "rank": 21, "id": 359, "code": 47652, "icd9": "584.9", "icd10": "N17.9", "description": "Acute kidney failure" }, 
+    { "rank": 22, "id": 23, "code": 823022, "icd9": "585.6", "icd10": "N18.6", "description": "ESRD (end stage renal disease) on dialysis" }, 
+    { "rank": 23, "id": 720, "code": 40636, "icd9": "571.5", "icd10": "K74.60", "description": "Cirrhosis" }, 
+    { "rank": 24, "id": 82, "code": 42046, "icd9": "787.91", "icd10": "R19.7", "description": "Diarrhea" }, 
+    { "rank": 25, "id": 282, "code": 72315, "icd9": "453.40", "icd10": "I82.409", "description": "DVT (deep venous thrombosis)" }
+  ],
   "profile": {
     "name": "ebilling"
   }
