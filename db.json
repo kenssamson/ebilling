@@ -51,11 +51,11 @@
       { "id": 7, "code": "36556", "description": "Central Venous Catheter, Initial Placement" }
     ],
     "savedCharges": [
-      { "status": 5, "date": "2019-06-18T00:00:00.000Z", "attendingOnly": false, 
+      { "status": 5, "date": "2019-06-18T00:00:00.000Z", "dateAbbr": 190618, "attendingOnly": false, 
         "serviceType": "J Day Service", "patientType": "General Medicine", 
         "chargeType": "Evaluate & Manage", "chargeLevel": "Admit Level 1",
         "dx1": "401.9 | I10", "dx2": "789.00 | R10.9" },
-      { "status": 4, "date": "2019-06-19T00:00:00.000Z", "attendingOnly": false, 
+      { "status": 4, "date": "2019-06-19T00:00:00.000Z", "dateAbbr": 190619, "attendingOnly": false, 
         "serviceType": "J Day Service", "patientType": "General Medicine", 
         "chargeType": "Evaluate & Manage", "chargeLevel": "Subseq Day Level 1",
         "proc1Title": "49082 | Abdominal Paracentesis", 
