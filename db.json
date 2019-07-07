@@ -62,7 +62,7 @@
         "dx1": "401.9 | I10", "dx2": "789.00 | R10.9" }
     ],
     "otherProviders": [
-      { "date": : "2019-06-20T00:00:00.000Z", "dateAbbr": 190618, "otherProvider": "E Abbo: Cons Sub2\\nA Chivu: Obs Sub1" }
+      { "date": "2019-06-20T00:00:00.000Z", "dateAbbr": 190618, "otherProvider": "E Abbo: Cons Sub2\\nA Chivu: Obs Sub1" }
     ],
     "encounter": {
       "physicianID": 432, "patientID": 877, "sectionID": 18, 
