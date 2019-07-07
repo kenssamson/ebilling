@@ -51,16 +51,25 @@
       { "id": 7, "code": "36556", "description": "Central Venous Catheter, Initial Placement" }
     ],
     "savedCharges": [
-      { "status": 5, "date": "2019-06-18T00:00:00.000Z", "dateAbbr": 190618, "attendingOnly": false, 
-        "serviceType": "J Day Service", "patientType": "General Medicine", 
+      { "id": 1010, "status": 5, "date": "2019-06-18T00:00:00.000Z", "dateAbbr": 190618, 
+        "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
         "chargeType": "Evaluate & Manage", "chargeLevel": "Admit Level 1",
         "dx1": "401.9 | I10", "dx2": "789.00 | R10.9" },
-      { "status": 4, "date": "2019-06-19T00:00:00.000Z", "dateAbbr": 190619, "attendingOnly": false, 
-        "serviceType": "J Day Service", "patientType": "General Medicine", 
+      { "id": 1011, "status": 4, "date": "2019-06-19T00:00:00.000Z", "dateAbbr": 190619, "otherProvider": "E Abbo: Cons Init1",
+        "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
         "chargeType": "Evaluate & Manage", "chargeLevel": "Subseq Day Level 1",
         "proc1Title": "49082 | Abdominal Paracentesis", 
         "dx1": "401.9 | I10", "dx2": "789.00 | R10.9" }
-    ]
+    ],
+    "otherProviders": [
+      { "date": : "2019-06-20T00:00:00.000Z", "dateAbbr": 190618, "otherProvider": "E Abbo: Cons Sub2\\nA Chivu: Obs Sub1" }
+    ],
+    "encounter": {
+      "physicianID": 432, "patientID": 877, "sectionID": 18, 
+      "admitDate": "2019-06-18T00:00:00.000Z", "dischargeDate": "2019-06-29T00:00:00.000Z", 
+      "serviceTypeID": 1, "patientTypeID": 3, "chargeTypeID": 1, 
+      "showAttendingOnly": true, "setAttendingOnly": false, "showModifier": true      
+    }
   },
   "diagnosis": [
     { "rank": 1, "id": 336, "code": "193872", "icd9": "401.9", "icd10": "I10", "description": "HTN (hypertension)" }, 
