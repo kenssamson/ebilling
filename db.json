@@ -59,7 +59,7 @@
         "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
         "chargeType": "Evaluate & Manage", "chargeLevel": "Subseq Day Level 1",
         "proc1Title": "49082 | Abdominal Paracentesis", 
-        "dx1": "250.00 | E11.9": "789.00 | R10.9" }
+        "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" }
     ],
     "otherProviders": [
       { "date": "2019-06-20T00:00:00.000Z", "dateAbbr": 190620, "otherProvider": "E Abbo: Cons Sub2\nA Chivu: Obs Sub1" }
