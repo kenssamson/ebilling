@@ -22,24 +22,24 @@
       { "id": 5, "description": "Procedure Only", "chargeTypeID": 5 }
     ],
     "chargeLevels": [
-      { "id": 1, "description": "Seen but not Billed", "chargeTypeID": 1 },
-      { "id": 2, "description": "Admit Level 1", "chargeTypeID": 1 },
-      { "id": 3, "description": "Subseq Day Level 1", "chargeTypeID": 1 },
-      { "id": 4, "description": "Discharge", "chargeTypeID": 1 },
-      { "id": 5, "description": "Initial Consult Lvl 1", "chargeTypeID": 2 },
-      { "id": 6, "description": "Subseq Consult Lvl 1", "chargeTypeID": 2 },
-      { "id": 7, "description": "Init Observe Lvl 1", "chargeTypeID": 3 },
-      { "id": 8, "description": "Subseq Obs Lvl 1", "chargeTypeID": 3 },
-      { "id": 9, "description": "Obs/SD DC Lvl 1", "chargeTypeID": 3 },
-      { "id": 10, "description": "Observe Discharge", "chargeTypeID": 3 },
-      { "id": 11, "description": "30-74 mins", "chargeTypeID": 4 },
-      { "id": 12, "description": "75-104 mins", "chargeTypeID": 4 },
-      { "id": 13, "description": "105-134 mins", "chargeTypeID": 4 },
-      { "id": 14, "description": "135-164 mins", "chargeTypeID": 4 },
-      { "id": 15, "description": "165-194 mins", "chargeTypeID": 4 },
-      { "id": 16, "description": "195-224 mins", "chargeTypeID": 4 },
-      { "id": 17, "description": "225-254 mins", "chargeTypeID": 4 },
-      { "id": 18, "description": "255-284 mins", "chargeTypeID": 4 }
+      { "chargeTypeID": 1, "id": 1, "description": "Seen but not Billed" },
+      { "chargeTypeID": 1, "id": 2, "description": "Admit Level 1" },
+      { "chargeTypeID": 1, "id": 3, "description": "Subseq Day Level 1" },
+      { "chargeTypeID": 1, "id": 4, "description": "Discharge" },
+      { "chargeTypeID": 2, "id": 5, "description": "Initial Consult Lvl 1" },
+      { "chargeTypeID": 2, "id": 6, "description": "Subseq Consult Lvl 1" },
+      { "chargeTypeID": 3, "id": 7, "description": "Init Observe Lvl 1" },
+      { "chargeTypeID": 3, "id": 8, "description": "Subseq Obs Lvl 1" },
+      { "chargeTypeID": 3, "id": 9, "description": "Obs/SD DC Lvl 1" },
+      { "chargeTypeID": 3, "id": 10, "description": "Observe Discharge" },
+      { "chargeTypeID": 4, "id": 11, "description": "30-74 mins" },
+      { "chargeTypeID": 4, "id": 12, "description": "75-104 mins" },
+      { "chargeTypeID": 4, "id": 13, "description": "105-134 mins" },
+      { "chargeTypeID": 4, "id": 14, "description": "135-164 mins" },
+      { "chargeTypeID": 4, "id": 15, "description": "165-194 mins" },
+      { "chargeTypeID": 4, "id": 16, "description": "195-224 mins" },
+      { "chargeTypeID": 4, "id": 17, "description": "225-254 mins" },
+      { "chargeTypeID": 4, "id": 18, "description": "255-284 mins" }
     ],
     "procedures": [
       { "id": 1, "code": "32554", "description": "Thoracentesis" },
@@ -49,26 +49,26 @@
       { "id": 5, "code": "49084", "description": "Peritoneal lavage" },
       { "id": 6, "code": "62270", "description": "Diagnostic Lumbar Punctures" },
       { "id": 7, "code": "36556", "description": "Central Venous Catheter, Initial Placement" }
-    ],
-    "savedCharges": [
-      { "id": 1010, "status": 5, "date": "2019-06-18T00:00:00.000Z", "dateAbbr": 190618, 
-        "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
-        "chargeType": "Evaluate & Manage", "chargeLevel": "Admit Level 1",
-        "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" },
-      { "id": 1011, "status": 4, "date": "2019-06-19T00:00:00.000Z", "dateAbbr": 190619, "otherProvider": "E Abbo: Cons Init1",
-        "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
-        "chargeType": "Evaluate & Manage", "chargeLevel": "Subseq Day Level 1",
-        "proc1Title": "49082 | Abdominal Paracentesis", 
-        "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" }
-    ],
-    "otherProviders": [
-      { "date": "2019-06-20T00:00:00.000Z", "dateAbbr": 190620, "otherProvider": "E Abbo: Cons Sub2\nA Chivu: Obs Sub1" }
-    ],
+    ],    
     "encounter": {
       "physicianID": 432, "patientID": 877, "sectionID": 18, 
       "admitDate": "2019-06-18T00:00:00.000Z", "dischargeDate": "2019-07-05T00:00:00.000Z", 
       "serviceTypeID": 1, "patientTypeID": 3, "chargeTypeID": 1, 
       "showAttendingOnly": true, "setAttendingOnly": false, "showModifier": true,
+      "savedCharges": [
+        { "id": 1010, "status": 5, "date": "2019-06-18T00:00:00.000Z", "dateAbbr": 190618, 
+          "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
+          "chargeType": "Evaluate & Manage", "chargeLevel": "Admit Level 1",
+          "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" },
+        { "id": 1011, "status": 4, "date": "2019-06-19T00:00:00.000Z", "dateAbbr": 190619, "otherProvider": "E Abbo: Cons Init1",
+          "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
+          "chargeType": "Evaluate & Manage", "chargeLevel": "Subseq Day Level 1",
+          "proc1Title": "49082 | Abdominal Paracentesis", 
+          "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" }
+      ],
+      "otherProviders": [
+        { "date": "2019-06-20T00:00:00.000Z", "dateAbbr": 190620, "otherProvider": "E Abbo: Cons Sub2\nA Chivu: Obs Sub1" }
+      ],
       "diagnosis": [
         { "id": 1658, "code": "41884", "icd9": "250.00", "icd10": "E11.9", "description": "Diabetes" }, 
         { "id": 34, "code": "84356", "icd9": "789.00", "icd10": "R10.9", "description": "Abdominal pain" }
