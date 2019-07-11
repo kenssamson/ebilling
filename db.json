@@ -101,6 +101,9 @@
     { "rank": 24, "id": 82, "code": "42046", "icd9": "787.91", "icd10": "R19.7", "description": "Diarrhea" }, 
     { "rank": 25, "id": 282, "code": "72315", "icd9": "453.40", "icd10": "I82.409", "description": "DVT (deep venous thrombosis)" }
   ],
+  "removeCharge": {
+    "success": true
+  }
   "profile": {
     "name": "ebilling"
   }
