@@ -101,9 +101,17 @@
     { "rank": 24, "id": 82, "code": "42046", "icd9": "787.91", "icd10": "R19.7", "description": "Diarrhea" }, 
     { "rank": 25, "id": 282, "code": "72315", "icd9": "453.40", "icd10": "I82.409", "description": "DVT (deep venous thrombosis)" }
   ],
-  "removeCharge": {
-    "success": true
-  },
+  "charge": [
+    { "id": 1010, "status": 5, "date": "2019-06-18T00:00:00.000Z", "dateAbbr": 190618, 
+          "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
+          "chargeType": "Evaluate & Manage", "chargeLevel": "Admit Level 1",
+          "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" },
+    { "id": 1011, "status": 4, "date": "2019-06-19T00:00:00.000Z", "dateAbbr": 190619, "otherProvider": "E Abbo: Cons Init1",
+          "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
+          "chargeType": "Evaluate & Manage", "chargeLevel": "Subseq Day Level 1",
+          "proc1Title": "49082 | Abdominal Paracentesis", 
+          "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" }
+  ],
   "profile": {
     "name": "ebilling"
   }
