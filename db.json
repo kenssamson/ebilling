@@ -107,7 +107,7 @@
   ],
   "charge": [
     { "id": 1010, "status": 5, "date": "2019-06-18T00:00:00.000Z", "dateAbbr": 190618, 
-          "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
+          "attendingOnly": true, "serviceType": "J Day Service", "patientType": "General Medicine", 
           "chargeType": "Evaluate & Manage", "chargeLevel": "Admit Level 1",
           "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" },
     { "id": 1011, "status": 4, "date": "2019-06-19T00:00:00.000Z", "dateAbbr": 190619,
