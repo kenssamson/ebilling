@@ -74,9 +74,9 @@
       ],
       "diagnosis": [
         { "id": 1658, "code": "41884", "icd9": "250.00", "icd10": "E11.9", "description": "Diabetes",
-          "shortDisplay": "250.00 | E11.9", display: "250.00 | E11.9 | Diabetes" }, 
+          "shortDisplay": "250.00 | E11.9", "display": "250.00 | E11.9 | Diabetes" }, 
         { "id": 34, "code": "84356", "icd9": "789.00", "icd10": "R10.9", "description": "Abdominal pain",
-          "shortDisplay": "789.00 | R10.9", display: "789.00 | R10.9 | Abdominal pain"}
+          "shortDisplay": "789.00 | R10.9", "display": "789.00 | R10.9 | Abdominal pain"}
       ]
     }
   },
