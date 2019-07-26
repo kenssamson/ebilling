@@ -51,8 +51,9 @@
       { "id": 7, "code": "36556", "description": "Central Venous Catheter, Initial Placement" }
     ],    
     "encounter": {
-      "id": 10212, "patient": "Doe, John", "mrn": "A0001234567", "encounter": "A00012346789", "locationType": "1",
-      "admitDate": "2019-06-25T00:00:00.000Z", "dischargeDate": "2019-07-19T00:00:00.000Z", 
+      "id": 10212, "locationType": "1", "saveOnExit": "true",
+      "patient": "Doe, John", "mrn": "A0001234567", "encounter": "A00012346789", 
+      "admitDate": "2019-06-25T00:00:00.000Z", 
       "serviceTypeID": 1, "patientTypeID": 3, "chargeTypeID": 1, 
       "showAttendingOnly": true, "setAttendingOnly": false, "showModifier": true,
       "savedCharges": [
