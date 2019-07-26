@@ -51,26 +51,27 @@
       { "id": 7, "code": "36556", "description": "Central Venous Catheter, Initial Placement" }
     ],    
     "encounter": {
-      "admitDate": "2019-06-18T00:00:00.000Z", "dischargeDate": "2019-07-05T00:00:00.000Z", 
+      "id": 10212, "patient": "Doe, John", "mrn": "A0001234567", "encounter": "A00012346789", "locationType": "1",
+      "admitDate": "2019-06-25T00:00:00.000Z", "dischargeDate": "2019-07-19T00:00:00.000Z", 
       "serviceTypeID": 1, "patientTypeID": 3, "chargeTypeID": 1, 
       "showAttendingOnly": true, "setAttendingOnly": false, "showModifier": true,
       "savedCharges": [
-        { "chargeID": 1010, "status": 5, "date": "2019-06-18T00:00:00.000Z", "dateAbbr": 190618, 
+        { "chargeID": 1010, "status": 5, "date": "2019-06-25T00:00:00.000Z", "dateAbbr": 190625, 
           "attendingOnly": true, "serviceType": "J Day Service", "patientType": "General Medicine", 
           "chargeType": "Evaluate & Manage", "chargeLevel": "Admit Level 1",
           "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" },
-        { "chargeID": 1011, "status": 4, "date": "2019-06-19T00:00:00.000Z", "dateAbbr": 190619,
+        { "chargeID": 1011, "status": 4, "date": "2019-06-26T00:00:00.000Z", "dateAbbr": 190626,
           "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
           "chargeType": "Evaluate & Manage", "chargeLevel": "Subseq Day Level 1",
           "proc1Title": "49082 | Abdominal Paracentesis", 
           "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" },
-        { "chargeID": 1012, "status": 4, "date": "2019-06-20T00:00:00.000Z", "dateAbbr": 190620, "otherProvider": "E Abbo: Cons Init1",
+        { "chargeID": 1012, "status": 4, "date": "2019-06-27T00:00:00.000Z", "dateAbbr": 190627, "otherProvider": "E Abbo: Cons Init1",
           "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
           "chargeType": "Evaluate & Manage", "chargeLevel": "Subseq Day Level 1",
           "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" }
       ],
       "otherProviders": [
-        { "date": "2019-06-21T00:00:00.000Z", "dateAbbr": 190621, "otherProvider": "E Abbo: Cons Sub2\nA Chivu: Obs Sub1" }
+        { "date": "2019-06-28T00:00:00.000Z", "dateAbbr": 190628, "otherProvider": "E Abbo: Cons Sub2\nA Chivu: Obs Sub1" }
       ],
       "diagnosis": [
         { "code": "41884", "icd9": "250.00", "icd10": "E11.9", "description": "Diabetes",
@@ -81,16 +82,16 @@
     }
   },
   "charge": [
-    { "id": 1010, "status": 5, "date": "2019-06-18T00:00:00.000Z", "dateAbbr": 190618, 
+    { "id": 1010, "status": 5, "date": "2019-06-25T00:00:00.000Z", "dateAbbr": 190625, 
           "attendingOnly": true, "serviceType": "J Day Service", "patientType": "General Medicine", 
           "chargeType": "Evaluate & Manage", "chargeLevel": "Admit Level 1",
           "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" },
-    { "id": 1011, "status": 4, "date": "2019-06-19T00:00:00.000Z", "dateAbbr": 190619,
+    { "id": 1011, "status": 4, "date": "2019-06-26T00:00:00.000Z", "dateAbbr": 190626,
           "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
           "chargeType": "Evaluate & Manage", "chargeLevel": "Subseq Day Level 1",
           "proc1Title": "49082 | Abdominal Paracentesis", 
           "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" },
-    { "id": 1012, "status": 4, "date": "2019-06-20T00:00:00.000Z", "dateAbbr": 190620, "otherProvider": "E Abbo: Cons Init1",
+    { "id": 1012, "status": 4, "date": "2019-06-27T00:00:00.000Z", "dateAbbr": 190627, "otherProvider": "E Abbo: Cons Init1",
           "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
           "chargeType": "Evaluate & Manage", "chargeLevel": "Subseq Day Level 1",
           "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" }
