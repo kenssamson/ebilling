@@ -115,6 +115,10 @@
     { "id": 18, "assocID": 2, "code": "76", "description": "Repeat Procedure, Same Provider", "sortOrder": 13 },
     { "id": 19, "assocID": 2, "code": "77", "description": "Repeat Procedure, Different Provider", "sortOrder": 14 }
   ],
+  "domains": [
+    { "key": "BSDAD", "value": "bsdad.uchicago.edu" },
+    { "key": "UCHAD", "value": "uchad.uchospitals.edu" }
+  ],
   "profile": {
     "name": "ebilling"
   }
