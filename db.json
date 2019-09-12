@@ -20,7 +20,7 @@
       { "sectionID": 1, "id": 4, "description": "Critical Care", "chargeTypeID": 4 },
       { "sectionID": 2, "id": 11, "description": "Home Visit", "chargeTypeID": 11 },
       { "sectionID": 2, "id": 12, "description": "Nursing Facility", "chargeTypeID": 12 },
-      { "sectionID": 0, "id": 5, "description": "Procedure Only", "chargeTypeID": 5 }      
+      { "sectionID": 0, "id": 99, "description": "Procedure Only", "chargeTypeID": 99 }      
     ],
     "chargeLevels": [
       { "chargeTypeID": 1, "id": 1, "description": "Seen but not Billed" },
