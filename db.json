@@ -56,14 +56,11 @@
       { "sectionID": 1, "id": 1, "code": "32554", "description": "Thoracentesis" },
       { "sectionID": 1, "id": 2, "code": "32555", "description": "Theracentesis w/ Ultrasound Guidance" },
       { "sectionID": 1, "id": 3, "code": "49082", "description": "Abdominal Paracentesis" },
-      { "sectionID": 1, "id": 4, "code": "48083", "description": "Abdominal Paracentesis w/ Ultrasound Guidance" },
-      { "sectionID": 1, "id": 5, "code": "49084", "description": "Peritoneal lavage" },
-      { "sectionID": 1, "id": 6, "code": "62270", "description": "Diagnostic Lumbar Punctures" },
-      { "sectionID": 1, "id": 7, "code": "36556", "description": "Central Venous Catheter, Initial Placement" },
-      { "sectionID": 2, "id": 8, "code": "97597", "description": "Wound Debridement, less or equal 20 sq cm" },
-      { "sectionID": 2, "id": 9, "code": "97598", "description": "Wound Debridement, greater than 20 sq cm" },
-      { "sectionID": 2, "id": 10, "code": "G0180", "description": "Medicare Cert of Home Health Services" },
-      { "sectionID": 2, "id": 11, "code": "G0179", "description": "Medicare Re-Cert of Home Health Services" }
+      { "sectionID": 1, "id": 4, "code": "36556", "description": "Central Venous Catheter, Initial Placement" },
+      { "sectionID": 2, "id": 20, "code": "97597", "description": "Wound Debridement, less or equal 20 sq cm" },
+      { "sectionID": 2, "id": 21, "code": "97598", "description": "Wound Debridement, greater than 20 sq cm" },
+      { "sectionID": 2, "id": 22, "code": "G0180", "description": "Medicare Cert of Home Health Services" },
+      { "sectionID": 2, "id": 23, "code": "G0179", "description": "Medicare Re-Cert of Home Health Services" }
     ]    
   },
   "encounter": {
