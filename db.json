@@ -63,7 +63,7 @@
       { "sectionID": 2, "id": 8, "code": "97597", "description": "Wound Debridement, less or equal 20 sq cm" },
       { "sectionID": 2, "id": 9, "code": "97598", "description": "Wound Debridement, greater than 20 sq cm" },
       { "sectionID": 2, "id": 10, "code": "G0180", "description": "Medicare Cert of Home Health Services" },
-      { "sectionID": 2, "id": 11, "code": "G0179", "description": "Medicare Re-Cert of Home Health Services" },
+      { "sectionID": 2, "id": 11, "code": "G0179", "description": "Medicare Re-Cert of Home Health Services" }
     ]    
   },
   "encounter": {
