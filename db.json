@@ -1,11 +1,10 @@
 {
   "lookupData": {
     "serviceTypes": [
-      { "id": 1, "description": "J Day Service" },
-      { "id": 2, "description": "K Day Service" },
-      { "id": 3, "description": "L Day Service" },
-      { "id": 4, "description": "M Day Service" },
-      { "id": 5, "description": "O Day Service" }
+      { "id": 1, "description": "Mercy A" },
+      { "id": 2, "description": "Mercy B" },
+      { "id": 3, "description": "Mercy C" },
+      { "id": 4, "description": "Mercy D" }
     ],
     "patientTypes": [
       { "id": 1, "description": "Liver" },
@@ -15,11 +14,13 @@
       { "id": 5, "description": "Radiologoy" }
     ],
     "chargeTypes": [
-      { "id": 1, "description": "Evaluate & Manage", "chargeTypeID": 1 },
-      { "id": 2, "description": "Consultation", "chargeTypeID": 2 },
-      { "id": 3, "description": "Observation", "chargeTypeID": 3 },
-      { "id": 4, "description": "Critical Care", "chargeTypeID": 4 },
-      { "id": 5, "description": "Procedure Only", "chargeTypeID": 5 }
+      { "sectionID": 1, "id": 1, "description": "Evaluate & Manage", "chargeTypeID": 1 },
+      { "sectionID": 1, "id": 2, "description": "Consultation", "chargeTypeID": 2 },
+      { "sectionID": 1, "id": 3, "description": "Observation", "chargeTypeID": 3 },
+      { "sectionID": 1, "id": 4, "description": "Critical Care", "chargeTypeID": 4 },
+      { "sectionID": 2, "id": 11, "description": "Home Visit", "chargeTypeID": 11 },
+      { "sectionID": 2, "id": 12, "description": "Nursing Facility", "chargeTypeID": 12 },
+      { "sectionID": 0, "id": 5, "description": "Procedure Only", "chargeTypeID": 5 }      
     ],
     "chargeLevels": [
       { "chargeTypeID": 1, "id": 1, "description": "Seen but not Billed" },
@@ -39,61 +40,75 @@
       { "chargeTypeID": 4, "id": 15, "description": "165-194 mins" },
       { "chargeTypeID": 4, "id": 16, "description": "195-224 mins" },
       { "chargeTypeID": 4, "id": 17, "description": "225-254 mins" },
-      { "chargeTypeID": 4, "id": 18, "description": "255-284 mins" }
+      { "chargeTypeID": 11, "id": 18, "description": "New Visit Lvl 1" },
+      { "chargeTypeID": 11, "id": 19, "description": "New Visit Lvl 2" },
+      { "chargeTypeID": 11, "id": 20, "description": "Return Visit Lvl 1" },
+      { "chargeTypeID": 11, "id": 21, "description": "Return Visit Lvl 2" },
+      { "chargeTypeID": 12, "id": 22, "description": "Annual Asses" },
+      { "chargeTypeID": 12, "id": 23, "description": "Comp Asses Lvl 1" },
+      { "chargeTypeID": 12, "id": 24, "description": "Comp Asses Lvl 2" },
+      { "chargeTypeID": 12, "id": 25, "description": "Subseq Care Lvl 1" },
+      { "chargeTypeID": 12, "id": 26, "description": "Subseq Care Lvl 2" },
+      { "chargeTypeID": 12, "id": 27, "description": "Discharge <30min" },
+      { "chargeTypeID": 12, "id": 28, "description": "Discharge >30min" }
     ],
     "procedures": [
-      { "id": 1, "code": "32554", "description": "Thoracentesis" },
-      { "id": 2, "code": "32555", "description": "Theracentesis w/ Ultrasound Guidance" },
-      { "id": 3, "code": "49082", "description": "Abdominal Paracentesis" },
-      { "id": 4, "code": "48083", "description": "Abdominal Paracentesis w/ Ultrasound Guidance" },
-      { "id": 5, "code": "49084", "description": "Peritoneal lavage" },
-      { "id": 6, "code": "62270", "description": "Diagnostic Lumbar Punctures" },
-      { "id": 7, "code": "36556", "description": "Central Venous Catheter, Initial Placement" }
-    ],    
-    "encounter": {
-      "id": 10212, "locationType": 1, "saveOnExit": true,
-      "patient": "Doe, John (A0001234567)", "encounterID": "A00012346789", 
-      "admitDate": "2019-06-25T00:00:00.000Z", "dischargeDate": "2019-07-19T00:00:00.000Z", 
-      "serviceTypeID": 1, "patientTypeID": 3, "chargeTypeID": 1, 
-      "showAttendingOnly": true, "setAttendingOnly": false, "showModifier": true,
-      "savedCharges": [
-        { "chargeID": 1010, "status": 5, "date": "2019-06-25T00:00:00.000Z", "dateAbbr": 190625, 
-          "attendingOnly": true, "serviceType": "J Day Service", "patientType": "General Medicine", 
-          "chargeType": "Evaluate & Manage", "chargeLevel": "Admit Level 1",
-          "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" },
-        { "chargeID": 1011, "status": 4, "date": "2019-06-26T00:00:00.000Z", "dateAbbr": 190626,
-          "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
-          "chargeType": "Evaluate & Manage", "chargeLevel": "Subseq Day Level 1",
-          "proc1Title": "49082 | Abdominal Paracentesis", 
-          "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" },
-        { "chargeID": 1012, "status": 4, "date": "2019-06-27T00:00:00.000Z", "dateAbbr": 190627, "otherProvider": "E Abbo: Cons Init1",
-          "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
-          "chargeType": "Evaluate & Manage", "chargeLevel": "Subseq Day Level 1",
-          "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" }
-      ],
-      "otherProviders": [
-        { "date": "2019-06-28T00:00:00.000Z", "dateAbbr": 190628, "otherProvider": "E Abbo: Cons Sub2\nA Chivu: Obs Sub1" }
-      ],
-      "diagnosis": [
-        { "code": "41884", "icd9": "250.00", "icd10": "E11.9", "description": "Diabetes",
-          "shortDisplay": "250.00 | E11.9", "display": "250.00 | E11.9 | Diabetes" }, 
-        { "code": "84356", "icd9": "789.00", "icd10": "R10.9", "description": "Abdominal pain",
-          "shortDisplay": "789.00 | R10.9", "display": "789.00 | R10.9 | Abdominal pain"}
-      ]
-    }
+      { "sectionID": 1, "id": 1, "code": "32554", "description": "Thoracentesis" },
+      { "sectionID": 1, "id": 2, "code": "32555", "description": "Theracentesis w/ Ultrasound Guidance" },
+      { "sectionID": 1, "id": 3, "code": "49082", "description": "Abdominal Paracentesis" },
+      { "sectionID": 1, "id": 4, "code": "48083", "description": "Abdominal Paracentesis w/ Ultrasound Guidance" },
+      { "sectionID": 1, "id": 5, "code": "49084", "description": "Peritoneal lavage" },
+      { "sectionID": 1, "id": 6, "code": "62270", "description": "Diagnostic Lumbar Punctures" },
+      { "sectionID": 1, "id": 7, "code": "36556", "description": "Central Venous Catheter, Initial Placement" },
+      { "sectionID": 2, "id": 8, "code": "97597", "description": "Wound Debridement, less or equal 20 sq cm" },
+      { "sectionID": 2, "id": 9, "code": "97598", "description": "Wound Debridement, greater than 20 sq cm" },
+      { "sectionID": 2, "id": 10, "code": "G0180", "description": "Medicare Cert of Home Health Services" },
+      { "sectionID": 2, "id": 11, "code": "G0179", "description": "Medicare Re-Cert of Home Health Services" },
+    ]    
+  },
+  "encounter": {
+    "id": 10212, "locationType": 1, "saveOnExit": true,
+    "patient": "Doe, John (A0001234567)", "encounterID": "A00012346789", 
+    "admitDate": "2019-06-25T00:00:00.000Z", "dischargeDate": "2019-07-19T00:00:00.000Z", 
+    "serviceTypeID": 1, "patientTypeID": 3, "chargeTypeID": 1, 
+    "showAttendingOnly": true, "setAttendingOnly": false, "showModifier": true,
+    "savedCharges": [
+      { "chargeID": 1010, "status": 5, "date": "2019-06-25T00:00:00.000Z", "dateAbbr": 190625, 
+        "attendingOnly": true, "serviceType": "Mercy B", "patientType": "General Medicine", 
+        "chargeType": "Evaluate & Manage", "chargeLevel": "Admit Level 1",
+        "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" },
+      { "chargeID": 1011, "status": 4, "date": "2019-06-26T00:00:00.000Z", "dateAbbr": 190626,
+        "attendingOnly": false, "serviceType": "Mercy B", "patientType": "General Medicine", 
+        "chargeType": "Evaluate & Manage", "chargeLevel": "Subseq Day Level 1",
+        "proc1Title": "49082 | Abdominal Paracentesis", 
+        "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" },
+      { "chargeID": 1012, "status": 4, "date": "2019-06-27T00:00:00.000Z", "dateAbbr": 190627, "otherProvider": "E Abbo: Cons Init1",
+        "attendingOnly": false, "serviceType": "Mercy B", "patientType": "General Medicine", 
+        "chargeType": "Evaluate & Manage", "chargeLevel": "Subseq Day Level 1",
+        "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" }
+    ],
+    "otherProviders": [
+      { "date": "2019-06-28T00:00:00.000Z", "dateAbbr": 190628, "otherProvider": "E Abbo: Cons Sub2\nA Chivu: Obs Sub1" }
+    ],
+    "diagnosis": [
+      { "code": "41884", "icd9": "250.00", "icd10": "E11.9", "description": "Diabetes",
+        "shortDisplay": "250.00 | E11.9", "display": "250.00 | E11.9 | Diabetes" }, 
+      { "code": "84356", "icd9": "789.00", "icd10": "R10.9", "description": "Abdominal pain",
+        "shortDisplay": "789.00 | R10.9", "display": "789.00 | R10.9 | Abdominal pain"}
+    ]
   },
   "charge": [
     { "id": 1010, "status": 5, "date": "2019-06-25T00:00:00.000Z", "dateAbbr": 190625, 
-          "attendingOnly": true, "serviceType": "J Day Service", "patientType": "General Medicine", 
+          "attendingOnly": true, "serviceType": "Mercy B", "patientType": "General Medicine", 
           "chargeType": "Evaluate & Manage", "chargeLevel": "Admit Level 1",
           "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" },
     { "id": 1011, "status": 4, "date": "2019-06-26T00:00:00.000Z", "dateAbbr": 190626,
-          "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
+          "attendingOnly": false, "serviceType": "Mercy B", "patientType": "General Medicine", 
           "chargeType": "Evaluate & Manage", "chargeLevel": "Subseq Day Level 1",
           "proc1Title": "49082 | Abdominal Paracentesis", 
           "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" },
     { "id": 1012, "status": 4, "date": "2019-06-27T00:00:00.000Z", "dateAbbr": 190627, "otherProvider": "E Abbo: Cons Init1",
-          "attendingOnly": false, "serviceType": "J Day Service", "patientType": "General Medicine", 
+          "attendingOnly": false, "serviceType": "Mercy B", "patientType": "General Medicine", 
           "chargeType": "Evaluate & Manage", "chargeLevel": "Subseq Day Level 1",
           "dx1": "250.00 | E11.9", "dx2": "789.00 | R10.9" }
   ],
@@ -118,8 +133,5 @@
   "domains": [
     { "key": "BSDAD", "value": "bsdad.uchicago.edu" },
     { "key": "UCHAD", "value": "uchad.uchospitals.edu" }
-  ],
-  "profile": {
-    "name": "ebilling"
-  }
+  ]
 }
